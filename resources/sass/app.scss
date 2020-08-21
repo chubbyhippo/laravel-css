@@ -1,0 +1,52 @@
+@import url(~sanitize.css);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #222222;
+    color: rgba(255, 255, 255, 50%)
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to right, #a25b5b, #692e4c);
+    padding: 1.5em 2em;
+    
+
+    h1 {
+        color: white;
+        font-size: 2.6em;
+        margin-top: 0;
+    }
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    a {
+        padding: 0 2em;
+        text-transform: uppercase;
+    }
+
+}
