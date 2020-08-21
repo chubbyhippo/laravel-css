@@ -589,7 +589,6 @@ a {
   font-size: 1.5em;
   text-decoration: none;
   color: #222222;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 a:hover {
@@ -603,7 +602,6 @@ a:hover {
 
 header {
   background-image: linear-gradient(to right, #a25b5b, #692e4c);
-  padding: 1.5em 2em;
 }
 
 header h1 {
@@ -612,11 +610,8 @@ header h1 {
   margin-top: 0;
 }
 
-.header-top {
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
-  padding-bottom: 50px;
+header a {
+  color: white;
 }
 
 nav {
@@ -628,5 +623,40 @@ nav {
 nav a {
   padding: 0 2em;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.flex,
+.row {
+  display: flex;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+.box {
+  background: #e3e3e3;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  padding: 30px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
 
